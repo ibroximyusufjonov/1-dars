@@ -1,0 +1,141 @@
+
+/* ROOT */
+:root{
+    /* --header-bg-color: #fff; */
+    /* --main-bg-color: #fff; */
+    /* --main-text-color: #fff; */
+}
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+   ;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-nav__list{
+display: flex;
+justify-content: end;
+gap: 50px;
+margin-bottom: 15px;
+}
+.site-header__logo-img{
+margin-top: 40px;
+}
+.site-nav__link{
+font-family: 'Barlow', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0.128571px;
+color: #FFFFFF;
+}
+.hero-title{
+text-align: center;
+font-family: 'Fraunces', serif;
+font-family: 'Scada', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 69px;
+text-align: center;
+letter-spacing: 8.75px;
+text-transform: uppercase;
+color: #fff;
+
+}
+.center-section{
+    width: 100%;
+    background-color: #fff;
+}
+.center-section__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.center-title{
+font-family: 'Fraunces 9pt Soft';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: -0.285714px;
+padding-top: 40%;
+color: #24303E;
+
+}
+.center-text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.128571px;
+color: #808397
+}
+.center-more{
+font-family: 'Fraunces 9pt Soft';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 25px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #24303E;
+}
